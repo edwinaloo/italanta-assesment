@@ -1,12 +1,18 @@
 import React from 'react';
+import './SocialImpact.css';
 
-function SocialImpact() {
+const SocialImpact = () => {
   return (
-    <div>
-      <h1>Social Impact Page</h1>
-      <p>Content about Elewa's social impact goes here.</p>
+    <div className="social-impact">
+      <div className="content">
+        <h1>Social Impact</h1>
+        <p>
+          Welcome to the Social Impact page. Here, you can provide information and details about the social impact of your organization or project.
+        </p>
+        {/* Add more content and sections as needed */}
+      </div>
     </div>
   );
-}
+};
 
 export default SocialImpact;
