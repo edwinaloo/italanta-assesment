@@ -17,8 +17,12 @@ const SocialImpact = () => {
           People   Careers Projects Investors
           trained launches finished
         </h2>
-    
-      {/* Add more content and sections as needed */}
+      
+      <img src="pics/" alt="Description of the image" />
+
+      <h3>
+        With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive, and scalable businesses. The rest will take care of itself.
+      </h3>
     </div>
   );
 };
