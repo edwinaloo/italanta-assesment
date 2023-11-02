@@ -1,5 +1,5 @@
 import React from 'react';
-import './landingpage.css';
+import './landingpage.css'; // Import your CSS file
 
 const LandingPage = () => {
   return (
@@ -13,11 +13,6 @@ const LandingPage = () => {
           <i className="fas fa-handshake"></i>
           <h2>Social Impact</h2>
           <p>Discover our social impact initiatives.</p>
-        </div>
-        <div className="feature">
-          <i className="fas fa-chart-line"></i>
-          <h2>Invest</h2>
-          <p>Explore investment opportunities with us.</p>
         </div>
       </section>
     </div>

@@ -2,9 +2,10 @@ import React from 'react';
 
 function Invest() {
   return (
-    <div>
-      <h1>Invest in Elewa</h1>
-      <p>Learn about investment opportunities and how to support Elewa financially.</p>
+    <div className="feature">
+      <i className="fas fa-chart-line"></i>
+      <h2>Invest</h2>
+      <p>Explore investment opportunities with us.</p>
     </div>
   );
 }
