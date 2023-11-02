@@ -6,7 +6,7 @@ body, h1, h2, p, a {
   
   /* Set background color and font family */
   body {
-    /* background-color: #f1f1f1; */
+    background-color: #f1f1f1;
     font-family: Arial, sans-serif;
     background-image: url('pics/goldnecklace.jpeg'); /* Add the correct image path */
     background-size: cover;
