@@ -1,19 +1,77 @@
-.social-impact {
+/* Reset some default styles */
+body, h1, h2, p, a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set background color and font family */
+  body {
+    /* background-color: #f1f1f1; */
+    font-family: Arial, sans-serif;
+    background-image: url('pics/goldnecklace.jpeg'); /* Add the correct image path */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 50vh; /* Adjust the height to cover half of the page */
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+    color: #fff; /* Text color, adjust as needed */
+    text-align: center;
     padding: 20px;
   }
   
-  .content {
+  .social-impact-content {
+    /* background-color: #fff; */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
     max-width: 800px;
-    margin: 0 auto;
+  }
+  
+  h2 a {
+    text-decoration: none;
+    color: #0077b5;
   }
   
   h1 {
     font-size: 24px;
-    margin-bottom: 20px;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    color: #555;
+    margin-top: 10px;
   }
   
   p {
     font-size: 16px;
-    line-height: 1.5;
+    color: #777;
+    margin-top: 10px;
+  }
+  
+  /* Additional styling for numbers */
+  .number-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .number-box {
+    text-align: center;
+  }
+  
+  .number-box h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .number-label {
+    font-size: 14px;
+    color: #777;
   }
   
