@@ -77,6 +77,43 @@ body {
   background-image: url('pics/Spotlights_7_pplnvm.jpg');
 }
 
+.logos:nth-child(3) {
+  background-image: url('pics/Kenya_Scouts_Association_kcoka5.svg');
+}
+
+.logos:nth-child(4) {
+  background-image: url('pics/wwf-4-logo-png-transparent_tbkfcq.png');
+}
+
+.logos:nth-child(5) {
+  background-image: url('pics/vvob-logo_qyvjbp.jpg');
+}
+
+.logos:nth-child(6) {
+  background-image: url('pics/farmbetter-logo_x2acda.png');
+}
+
+.logos:nth-child(7) {
+  background-image: url('pics/it_volk_black_logo_image_iowrws.png');
+}
+
+.logos:nth-child(8) {
+  background-image: url('pics/hoplit-logo_nsryy7.webp');
+}
+
+.logos:nth-child(9) {
+  background-image: url('pics/2017-GIZ-Logo_htdnpa.png');
+}
+
+.logos:nth-child(10) {
+  background-image: url('pics/Enabel-logo_afiel7.png');
+}
+
+.logos:nth-child(11) {
+  background-image: url('pics/syndicyourself_logfo_qiqrex.png');
+}
+
+
 /* Add similar lines for the other logos, incrementing the number accordingly */
 /* Include background-image for each logo and adjust max-width and max-height */
 
