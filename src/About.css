@@ -46,5 +46,11 @@ body, h1, h2, p, a {
     color: #333;
   }
   
-  /* Add more styles as needed */
+  /* Add background image to the specific section */
+  .about-section:nth-child(2) {
+    background-image: url('aboutpics/elewa-team_digqu3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white for better readability */
+  }
   

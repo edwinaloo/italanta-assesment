@@ -9,9 +9,12 @@ const About = () => {
       </header>
 
       <div className="about-section">
-        <h2>Our Mission</h2>
+        {/* add background image here */}
+        <h2>HOW TO RECOGNIZE AN ELEWA MEMBER</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Dependeble, Creative, Supportive, OpenMinded and Fun*
+
+          *SERIOUS WHEN IT MATTERS
         </p>
       </div>
 
