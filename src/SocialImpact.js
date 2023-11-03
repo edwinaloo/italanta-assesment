@@ -5,7 +5,7 @@ const SocialImpact = () => {
   return (
     <div className="social-impact-content">
       <h2><a href="https://elewa.ke">elewa group</a></h2>
-      <h1>Social Impact</h1>
+      <h1 className="main-title">Social Impact</h1>
 
       <div className="text-block">
         <h5 className="subtitle">Scaling Impact Beyond the Norm</h5>
@@ -33,22 +33,12 @@ const SocialImpact = () => {
         </p>
       </div>
 
-      {/* <div className="text-block">
-        <h1 className="section-title">Some of our impact projects</h1> */}
-        {/* <div className="logos"><img src="/pics/ms-adc_y96dms.jpg" alt="Logo 1" /></div>
-        <div className="logos"><img src="/pics/Spotlights_7_pplnvm.jpg" alt="Logo 2" /></div>
-        <div className="logos"><img src="/pics/Kenya_Scouts_Association_kcoka5.svg" alt="Logo 3" /></div>
-        <div className="logos"><img src="/pics/wwf-4-logo-png-transparent_tbkfcq.png" alt="Logo 4" /></div>
-        <div className="logos"><img src="/pics/vvob-logo_qyvjbp.jpg" alt="Logo 5" /></div>
-        <div className="logos"><img src="/pics/farmbetter-logo_x2acda.png" alt="Logo 6" /></div>
-        <div className="logos"><img src="/pics/it_volk_black_logo_image_iowrws.png" alt="Logo 7" /></div>
-        <div className="logos"><img src="/pics/hoplit-logo_nsryy7.webp" alt="Logo 8" /></div>
-        <div className="logos"><img src="/pics/2017-GIZ-Logo_htdnpa.png" alt="Logo 9" /></div>
-        <div className="logos"><img src="/pics/Enabel-logo_afiel7.png" alt="Logo 10" /></div>
-        <div className="logos"><img src="/pics/syndicyourself_logfo_qiqrex.png" alt="Logo 11" /></div> */}
-      
+      <div className="text-block">
+        <h2>
+          Become part of our mission and <h1><strong>join elewa</strong></h1>
+        </h2>
+      </div>
     </div>
-    
   );
 };
 

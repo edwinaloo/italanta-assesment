@@ -7,9 +7,9 @@ body, h1, h2, p, a {
 /* Set background color and font family */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f1f1f1;
+  background-color: #555252;
   background-image: url('pics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
-  background-size: cover;
+  background-size: cover; /* Cover the entire page with the background image */
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #3b3939;
   text-align: center;
   padding: 20px;
 }
@@ -27,45 +27,41 @@ body {
   padding: 20px;
   max-width: 800px;
   text-align: left;
-  background-color: rgba(255, 255, 255, 0.9);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  background-color: rgba(226, 219, 219, 0.9);
+  box-shadow: 0 0 20px rgba(31, 24, 24, 0.2);
   border-radius: 10px;
 }
 
-.text-block {
-  padding: 20px;
-  margin: 20px 0;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1.main-title {
+  font-size: 36px;
+  color: #333; /* Dark text color */
+  margin-top: 20px;
 }
 
-.subtitle {
-  font-size: 20px;
-  color: #0077b5;
-}
-
-.main-title {
-  font-size: 28px;
-  color: #333;
-}
-
-.section-title {
+h2 {
   font-size: 24px;
-  color: #333;
+  color: #464747; /* Blue text color */
 }
 
-.section-text {
+h1.section-title {
+  font-size: 28px;
+  color: #333; /* Dark text color */
+  margin-top: 20px;
+}
+
+p.section-text {
   font-size: 16px;
-  color: #777;
+  color: #777; /* Gray text color */
+}
+
+h1 strong {
+  color: #131a1f; /* Blue text color */
 }
 
 .logos img {
-  max-width: 90px; /* Adjust the max width as needed */
-  max-height: 40px; /* Adjust the max height as needed */
-  
-    /* Center the image horizontally */
+  max-width: 150px; /* Adjust the max width as needed */
+  max-height: 150px; /* Adjust the max height as needed */
+  display: none; /* Hide the actual image element */
 }
 
 /* Style each individual logo */
@@ -77,39 +73,11 @@ body {
   background-image: url('pics/Spotlights_7_pplnvm.jpg');
 }
 
-.logos:nth-child(3) {
-  background-image: url('pics/Kenya_Scouts_Association_kcoka5.svg');
-}
+/* Add similar lines for the other logos, incrementing the number accordingly */
+/* Include background-image for each logo and adjust max-width and max-height */
 
-.logos:nth-child(4) {
-  background-image: url('pics/wwf-4-logo-png-transparent_tbkfcq.png');
+/* Hover effect for logos */
+.logos:hover {
+  transform: scale(1.1); /* Increase size on hover */
 }
-
-.logos:nth-child(5) {
-  background-image: url('pics/vvob-logo_qyvjbp.jpg');
-}
-
-.logos:nth-child(6) {
-  background-image: url('pics/farmbetter-logo_x2acda.png');
-}
-
-.logos:nth-child(7) {
-  background-image: url('pics/it_volk_black_logo_image_iowrws.png');
-}
-
-.logos:nth-child(8) {
-  background-image: url('pics/hoplit-logo_nsryy7.webp');
-}
-
-.logos:nth-child(9) {
-  background-image: url('pics/2017-GIZ-Logo_htdnpa.png');
-}
-
-.logos:nth-child(10) {
-  background-image: url('pics/Enabel-logo_afiel7.png');
-}
-
-.logos:nth-child(11) {
-  background-image: url('pics/syndicyourself_logfo_qiqrex.png');
-}
-
+/* Adjust styles as needed */
