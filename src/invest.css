@@ -41,6 +41,16 @@ body {
     padding: 20px;
 }
 
+.invest-section h2 {
+    font-size: 28px;
+    color: #0077b5;
+}
+
+.invest-section p {
+    font-size: 16px;
+    color: #333;
+}
+
 /* Additional styling for various sections and elements as needed */
 
 h1, h2, h3 {
@@ -51,3 +61,5 @@ h1, h2, h3 {
 p {
     color: #777; /* Set your desired paragraph text color */
 }
+
+/* Add specific styles for images, buttons, and other elements as needed */
