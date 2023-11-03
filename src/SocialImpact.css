@@ -8,7 +8,7 @@ body, h1, h2, p, a {
 body {
   font-family: Arial, sans-serif;
   background-color: #f1f1f1;
-  background-image: url('pics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
+  background-image: url('socialpics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -70,47 +70,47 @@ body {
 
 /* Style each individual logo */
 .logos:nth-child(1) {
-  background-image: url('pics/ms-adc_y96dms.jpg');
+  background-image: url('socialpics/ms-adc_y96dms.jpg');
 }
 
 .logos:nth-child(2) {
-  background-image: url('pics/Spotlights_7_pplnvm.jpg');
+  background-image: url('socialpics/Spotlights_7_pplnvm.jpg');
 }
 
 .logos:nth-child(3) {
-  background-image: url('pics/Kenya_Scouts_Association_kcoka5.svg');
+  background-image: url('socialpics/Kenya_Scouts_Association_kcoka5.svg');
 }
 
 .logos:nth-child(4) {
-  background-image: url('pics/wwf-4-logo-png-transparent_tbkfcq.png');
+  background-image: url('socialpics/wwf-4-logo-png-transparent_tbkfcq.png');
 }
 
 .logos:nth-child(5) {
-  background-image: url('pics/vvob-logo_qyvjbp.jpg');
+  background-image: url('socialpics/vvob-logo_qyvjbp.jpg');
 }
 
 .logos:nth-child(6) {
-  background-image: url('pics/farmbetter-logo_x2acda.png');
+  background-image: url('socialpics/farmbetter-logo_x2acda.png');
 }
 
 .logos:nth-child(7) {
-  background-image: url('pics/it_volk_black_logo_image_iowrws.png');
+  background-image: url('socialpics/it_volk_black_logo_image_iowrws.png');
 }
 
 .logos:nth-child(8) {
-  background-image: url('pics/hoplit-logo_nsryy7.webp');
+  background-image: url('socialpics/hoplit-logo_nsryy7.webp');
 }
 
 .logos:nth-child(9) {
-  background-image: url('pics/2017-GIZ-Logo_htdnpa.png');
+  background-image: url('socialpics/2017-GIZ-Logo_htdnpa.png');
 }
 
 .logos:nth-child(10) {
-  background-image: url('pics/Enabel-logo_afiel7.png');
+  background-image: url('socialpics/Enabel-logo_afiel7.png');
 }
 
 .logos:nth-child(11) {
-  background-image: url('pics/syndicyourself_logfo_qiqrex.png');
+  background-image: url('socialpics/syndicyourself_logfo_qiqrex.png');
 }
 
 

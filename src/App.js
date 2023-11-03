@@ -11,10 +11,10 @@ function App() {
     <Router>
       <div>
         <Header />
-        <About />
+        
         <Routes>
           <Route path="/social-impact" element={<SocialImpact />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about-us" element={<About />} />
           <Route path="/invest" element={<Invest />} />
         </Routes>
       </div>
