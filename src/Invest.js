@@ -18,7 +18,8 @@ const Invest = () => {
       <div className="invest-section">
         <h2>How we see it differently</h2>
         <p>
-          The global South is rapidly catching up with the "developed" world. It's time for you to get to know the rapid development, innovation, and drive going on in this part of the world (East-Africa, South Asia, and beyond).
+          The global South is rapidly catching up with the "developed" world. It's time for you to get to know the rapid development,<b>
+          innovation, and drive going on in this part of the world (East-Africa, South Asia, and beyond).</b>
         </p>
       </div>
 
