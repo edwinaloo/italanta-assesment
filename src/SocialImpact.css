@@ -7,9 +7,9 @@ body, h1, h2, p, a {
 /* Set background color and font family */
 body {
   font-family: Arial, sans-serif;
-  background-color: #555252;
+  background-color: #f1f1f1;
   background-image: url('pics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
-  background-size: cover; /* Cover the entire page with the background image */
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #3b3939;
+  color: #fff;
   text-align: center;
   padding: 20px;
 }
@@ -27,35 +27,39 @@ body {
   padding: 20px;
   max-width: 800px;
   text-align: left;
-  background-color: rgba(226, 219, 219, 0.9);
-  box-shadow: 0 0 20px rgba(31, 24, 24, 0.2);
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+  margin: 0 auto;
 }
 
-h1.main-title {
-  font-size: 36px;
-  color: #333; /* Dark text color */
-  margin-top: 20px;
+.text-block {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  font-size: 24px;
-  color: #464747; /* Blue text color */
+.subtitle {
+  font-size: 20px;
+  color: #0077b5;
 }
 
-h1.section-title {
+.main-title {
   font-size: 28px;
-  color: #333; /* Dark text color */
-  margin-top: 20px;
+  color: #333;
 }
 
-p.section-text {
+.section-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.section-text {
   font-size: 16px;
-  color: #777; /* Gray text color */
-}
-
-h1 strong {
-  color: #131a1f; /* Blue text color */
+  color: #777;
 }
 
 .logos img {
@@ -80,4 +84,3 @@ h1 strong {
 .logos:hover {
   transform: scale(1.1); /* Increase size on hover */
 }
-/* Adjust styles as needed */
