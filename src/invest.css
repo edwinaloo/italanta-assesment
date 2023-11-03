@@ -1,0 +1,53 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font family */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1; /* Set your desired background color */
+    color: #333; /* Set your desired text color */
+    padding: 20px;
+}
+
+.invest-page {
+    max-width: 800px; /* Set your desired max-width */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.invest-header {
+    text-align: center;
+    background-color: #0077b5;
+    color: #fff;
+    padding: 20px;
+}
+
+.invest-header h1 {
+    font-size: 36px;
+}
+
+.invest-section {
+    max-width: 800px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Additional styling for various sections and elements as needed */
+
+h1, h2, h3 {
+    font-weight: bold;
+    color: #333; /* Set your desired heading text color */
+}
+
+p {
+    color: #777; /* Set your desired paragraph text color */
+}

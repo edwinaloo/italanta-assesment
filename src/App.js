@@ -11,7 +11,6 @@ function App() {
     <Router>
       <div>
         <Header />
-        
         <Routes>
           <Route path="/social-impact" element={<SocialImpact />} />
           <Route path="/about-us" element={<About />} />
