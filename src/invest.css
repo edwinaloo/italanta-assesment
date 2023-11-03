@@ -6,22 +6,28 @@ body, h1, h2, h3, p, a {
 
 /* Set background color and font family */
 body {
-    font-family: Arial, sans-serif;
+    background-image: url(investpics/Mask_Group_17_rjkgrq.png);
+    font-family: 'Arial', sans-serif;
     background-color: #f1f1f1;
     color: #333;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .invest-page {
     max-width: 800px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .invest-header {
-    text-align: center;
     background-color: #0077b5;
     color: #fff;
     padding: 20px;
@@ -29,36 +35,35 @@ body {
 
 .invest-header h1 {
     font-size: 36px;
+    font-weight: bold;
 }
 
 .invest-section {
     max-width: 800px;
     text-align: left;
-    background-color: #fff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    margin: 20px;
-    padding: 20px;
+    margin: 20px 0;
 }
 
 .invest-section h2 {
     font-size: 28px;
     color: #0077b5;
+    font-weight: bold;
 }
 
 .invest-section h3 {
     font-size: 18px;
+    font-weight: bold;
 }
 
 .invest-section p {
     font-size: 16px;
     color: #333;
+    margin: 10px 0;
 }
 
 /* Additional styling for various sections and elements as needed */
 
 h1, h2, h3 {
-    font-weight: bold;
     color: #333;
 }
 
@@ -75,8 +80,17 @@ p {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-top: 20px;
 }
 
 .invest-button:hover {
     background-color: #00578c;
+    transition: background-color 0.3s;
 }
+
+/* Additional Google styling */
+body, h1, h2, h3, p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Add Google Font link in your HTML file for the 'Roboto' font. */
