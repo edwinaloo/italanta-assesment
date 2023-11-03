@@ -21,8 +21,13 @@ const SocialImpact = () => {
       <img src="pics/" alt="Description of the image" />
 
       <h3>
-        With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive, and scalable businesses. The rest will take care of itself.
+       <div className="SocialImpact" >
+       With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive, and scalable businesses. The rest will take care of itself.
+
+        </div> 
+      
       </h3>
+      
     </div>
   );
 };
