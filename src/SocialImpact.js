@@ -6,42 +6,37 @@ const SocialImpact = () => {
     <div className="social-impact-content">
       <h2><a href="https://elewa.ke">elewa group</a></h2>
       <h1>Social Impact</h1>
-      <p>
-        <h5>Scaling impact. Beyond the norm</h5>
-        <h1><b>Human and Environmental Impact through Social Enterprise</b></h1>
-      </p>
 
-      <img src="pics/lady-impact_rnc9jy.jpg" alt="Image 1" />
+      <div className="text-block">
+        <h5 className="subtitle">Scaling Impact Beyond the Norm</h5>
+        <h1 className="main-title">Human and Environmental Impact through Social Enterprise</h1>
+      </div>
 
-      <h3>
-        With a young dynamic population that is eager to contribute to the global economy, East Africa has a lot to offer to the world. Now is the time to nurture sustainable, inclusive, and scalable businesses. The rest will take care of itself.
-      </h3>
-      <p>
-        <h1>A cooperative mindset</h1>
-        <h3>
-          Elewa has one shared objective; To unlock the true potential of individuals, teams, and the community. We believe strongly in the power of sharing ideas and continuously strive to grow each other and ourselves. Internally, but also within the larger communities in which we are active.
-        </h3>
-      </p>
-      <p>
-        <h1>Beyond business</h1>
-        <h3>
-          We channel a good amount of our resources into giving back.
+      <div className="text-block">
+        <h1 className="section-title">A Cooperative Mindset</h1>
+        <p className="section-text">
+          Elewa has one shared objective: To unlock the true potential of individuals, teams, and the community. We believe strongly in the power of sharing ideas and continuously strive to grow each other and ourselves, both internally and within the larger communities in which we are active.
+        </p>
+      </div>
 
-          Through projects such as our coding school in Kakuma refugee camp, training teachers in pastoral Samburu, and our open-source coding initiatives providing entry-level opportunities to hundreds of junior engineers.
+      <div className="text-block">
+        <h1 className="section-title">Beyond Business</h1>
+        <p className="section-text">
+          We channel a significant amount of our resources into giving back through projects such as our coding school in Kakuma refugee camp, training teachers in pastoral Samburu, and our open-source coding initiatives providing entry-level opportunities to hundreds of junior engineers. These projects may not have an immediate financial return, but their impact can be tangibly measured in the long term.
+        </p>
+      </div>
 
-          These projects don't necessarily have an immediate financial return, but their impact can be tangibly measured in the long-term.
-        </h3>
-      </p>
-      <p>
-        <h1>
-          Open Knowledge
-        </h1>
-        <h3>
-          What we learn, we share. Through community events, open knowledge repositories, regular teaching moments (everyone a teacher) and academic partnerships.
+      <div className="text-block">
+        <h1 className="section-title">Open Knowledge</h1>
+        <p className="section-text">
+          What we learn, we share through community events, open knowledge repositories, regular teaching moments (everyone is a teacher), and academic partnerships. We build for today with a lens on tomorrow.
+        </p>
+      </div>
 
-          We build for today, with a lens on tomorrow.
-        </h3>
-      </p>
+      <div className="text-block">
+        <h1 className="section-title">Some of our impact projects</h1>
+        
+      </div>
     </div>
   );
 };

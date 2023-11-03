@@ -1,77 +1,62 @@
 /* Reset some default styles */
 body, h1, h2, p, a {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Set background color and font family */
-  body {
-    background-color: #f1f1f1;
-    font-family: Arial, sans-serif;
-    background-image: url('/pics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    height: 50vh; /* Adjust the height to cover half of the page */
-    margin: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center content horizontally */
-    color: #fff; /* Text color, adjust as needed */
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .social-impact-content {
-    /* background-color: #fff; */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    max-width: 800px;
-  }
-  
-  h2 a {
-    text-decoration: none;
-    color: #0077b5;
-  }
-  
-  h1 {
-    font-size: 24px;
-    color: #333;
-    margin-top: 10px;
-  }
-  
-  h2 {
-    font-size: 20px;
-    color: #555;
-    margin-top: 10px;
-  }
-  
-  p {
-    font-size: 16px;
-    color: #777;
-    margin-top: 10px;
-  }
-  
-  /* Additional styling for numbers */
-  .number-section {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-  
-  .number-box {
-    text-align: center;
-  }
-  
-  .number-box h2 {
-    font-size: 24px;
-    color: #333;
-  }
-  
-  .number-label {
-    font-size: 14px;
-    color: #777;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font family */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  background-image: url('pics/pexels-bg-edit_bb4znx.jpg'); /* Add the correct image path */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.social-impact-content {
+  padding: 20px;
+  max-width: 800px;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.text-block {
+  padding: 20px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+  font-size: 20px;
+  color: #0077b5;
+}
+
+.main-title {
+  font-size: 28px;
+  color: #333;
+}
+
+.section-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.section-text {
+  font-size: 16px;
+  color: #777;
+}
