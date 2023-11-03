@@ -4,7 +4,7 @@ import Header from './Header';
 import SocialImpact from './SocialImpact';
 import About from './About';
 import Invest from './Invest';
-// import LandingPage from './LandingPage';
+
 
 function App() {
   return (
