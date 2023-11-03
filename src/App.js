@@ -8,16 +8,15 @@ import Home from './home';
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Header />
-       
+    <Router>      
+      <div>      
+      {/* <Header />  */}
         <Routes>
           <Route path="/social-impact" element={<SocialImpact />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/invest" element={<Invest />} />
         </Routes>
-        <Home />
+        <Header />
       </div>
     </Router>
   );
